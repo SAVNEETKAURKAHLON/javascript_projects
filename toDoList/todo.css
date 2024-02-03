@@ -1,0 +1,46 @@
+.task-list{
+    display: flex;
+    gap: 50%;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    padding: 2%;
+    background-color: #FFE7E7;
+}
+h1{
+    text-align: center;
+    color: #944E63;
+}
+.tasks{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    font-size: larger;
+}
+.btn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 22px;
+    background-color: #944E63;
+    border-style: none;
+    color: #f7e0e0;
+}
+.button{
+    text-align: center;
+}
+.incomplete,.complete{
+    width: 18rem;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #CAA6A6;
+
+}
+input{
+    margin-left: 6px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
