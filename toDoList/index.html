@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <script src="todo.js"></script>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                TO-DO LIST
+            </h1>
+            <div class="tasks">
+                <p id="comp-count" class="count">Complete</p>
+                <p id="incomp-count" class="count">Incomplete</p>
+            </div>
+            <div class="button">
+                <input type="button" value="Add Item" onclick="addTask()" class="btn">
+            </div>
+            <div class="task-list">
+                <div class="incomplete">
+                    <h1>Incomplete Task</h1>
+                    <hr>
+                    <form id="incomplete-list"></form>
+                </div>
+                <div class="complete">
+                    <h1>
+                        Complete Task
+                    </h1>
+                    <hr>
+                    <form id="complete-list">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
