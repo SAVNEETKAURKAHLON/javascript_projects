@@ -1,0 +1,14 @@
+.x{
+    color: rgb(93, 93, 247);
+    border: none;
+}
+#numb{
+    background-color: rgb(93, 93, 247);
+    color: white;
+    border: 1px;
+    border-style: none;
+    border-radius: 4px;
+    width: 150px;
+    text-align: center;
+    
+}
