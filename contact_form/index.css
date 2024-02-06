@@ -1,0 +1,134 @@
+body{
+    padding: 2%;
+    background-color: rgb(85, 85, 174);
+    color: white;
+}
+.container{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+.heading > :first-child {
+ font-size: 40px;
+ text-align: center;
+ font-weight: bold;
+}
+.heading > :last-child {
+    font-size: 20px;
+    text-align: center;
+   }
+.contact_info{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    text-align: center;
+    height: 60px;
+    width: 200px;
+    padding-top: 7px;
+}
+.contact_form{
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 8px;
+}
+.form{
+    padding: 25px;
+}
+.c-form{
+    font-weight: bold;
+}
+.input-field{
+    display: flex;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+    align-items: center;
+    width: 100%;
+    border-color: rgb(219, 217, 217);
+    border-radius: 4px;
+}
+input{
+    border-style: none;
+    /* width: 100%; */
+}
+/* .name-msg{
+    display: flex;
+} */
+.s{
+    font-weight: bold;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border-style: none;
+    margin-right: 7%;
+    background-color: white;
+    padding: 10px;
+    /* width: 150px; */
+}
+.foot-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.send-message{
+    background-color: rgb(252, 149, 166);
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-style: none;
+    border-radius: 4px;
+}
+@media (max-width:1278px) {
+    .container{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+@media (max-width:900px) {
+    .container{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media (max-width:700px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact_info{
+        
+        gap: 10%;
+       
+    }
+    
+}
+.info:hover{
+    background-color: rgb(252, 149, 166);
+    border-style: none;
+    border-radius: 4px;
+    
+}
+.input-field:hover,button:hover{
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: rgb(252, 149, 166);
+}
+.i:hover{
+    color: rgb(252, 149, 166);
+}
+input{
+width: 100%;
+
+}
+input:focus{
+    outline: none;
+}
